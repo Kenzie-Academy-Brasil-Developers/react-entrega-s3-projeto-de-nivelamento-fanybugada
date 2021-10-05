@@ -1,0 +1,79 @@
+.dashboardContainer {
+  flex-direction: column;
+}
+
+hr {
+  width: 100%;
+  opacity: 0.05;
+  margin: 20px 0;
+}
+
+.sectionCadastroContainer {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  position: relative;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 5px;
+  padding: 30px;
+  text-align: left;
+  height: 30rem;
+}
+.sectionCadastroContainer h2 {
+  margin-top: 0;
+  font-size: 3vw;
+  align-self: center;
+}
+
+.sectionCadastroContainer input {
+  text-align: center;
+  border-radius: 5px;
+  border-style: ridge;
+  padding: 5px;
+  margin-top: 3px;
+  background: black;
+  color: #9c9c9c;
+}
+
+.sectionCadastroContainer button {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 5px;
+  border: none;
+  color: #cacaca;
+  padding: 8px 27px;
+  width: 50%;
+  align-self: center;
+}
+
+.sectionCadastroContainer button:hover {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 5px;
+  padding: 10px 30px;
+  width: 51%;
+}
+
+.divProductsList {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  position: relative;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 5px;
+  padding: 30px;
+}
+
+.product {
+  background-color: black;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  text-align: left;
+}
+.product h4 {
+  align-self: center;
+}
